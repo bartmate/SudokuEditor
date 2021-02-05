@@ -9,14 +9,22 @@ This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It
 Currently it supports only traditional Sudoku-s. But I plan to add further elements like support for:
 * Thermometers
 * Killer Cages
-* Coloring
 * Summing arrows
 * Odd-even signs
 * Kropki dots
 * Min-max cells
+* Out-of-grid clues (like sandwich clues)
 * etc...
 
-In it current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
+Further plans:
+* Coloring
+* Highlighting naked singles
+* Highlighting double, triples, ...
+* Highlighting when there is only one place for a digit in box/row/column
+* Checking if the sudoku is solvable from the current position
+ * If there are more solution: how many.
+
+In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
 
 ## Controls
 
@@ -40,6 +48,8 @@ In it current form it is developed in Jupyter Notebook. To execute the applicati
 | Space                | Add/remove the active cell (cell with red frame) to/from the selection (yellow coloring) | 
 | Shift-a              | Add all cell to the selection (yellow coloring) | 
 | Ctrl-a               | Remove all cells from the selection (yellow coloring) | 
+| q                    | Increasing Show-level by one |
+| w                    | Decreasing Show-level by one |
 
 ### Puzzle Related Keys
 
@@ -56,5 +66,5 @@ In it current form it is developed in Jupyter Notebook. To execute the applicati
 | 1-9                | Adding a digit into the active cell to the solution | To reverse use Undo (u) |
 | Shift - 1-9        | Deleting the option in the active cell   | To reverse use Undo (u); Use only if the center pm is shown. |
 | Ctrl - 1-9         | Adding/deleting a digit as top pencilmark | |
-| c                  | Show or hide the options (i.e. center pencilmarks) in the selected cells(s) | | 
+| o                  | Show or hide the options (i.e. center pencilmarks) in the selected cells(s) | | 
 
