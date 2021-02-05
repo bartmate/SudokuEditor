@@ -17,7 +17,6 @@ Currently it supports only traditional Sudoku-s. But I plan to add further eleme
 * etc...
 
 Further plans:
-* Coloring
 * Highlighting naked singles
 * Highlighting double, triples, ...
 * Highlighting when there is only one place for a digit in box/row/column
@@ -64,7 +63,10 @@ In its current form it is developed in Jupyter Notebook. To execute the applicat
 | Event              | Effect      | Remark |
 |--------------------|-------------|--------|
 | 1-9                | Adding a digit into the active cell to the solution | To reverse use Undo (u) |
-| Shift - 1-9        | Deleting the option in the active cell   | To reverse use Undo (u); Use only if the center pm is shown. |
-| Ctrl - 1-9         | Adding/deleting a digit as top pencilmark | |
+| Shift - 1-9        | Deleting the option in the selected cell(s)   | To reverse use Undo (u); Use only if the center pm is shown. |
+| Ctrl - 1-9         | Adding/deleting a digit as top pencilmark in the selected cell(s) | |
 | o                  | Show or hide the options (i.e. center pencilmarks) in the selected cells(s) | | 
+| c                  | Color the selected cell(s) using the current color | Current color is shown in the top left corner | 
+| Shift-c            | Set the current color to the next color option | | 
+| Ctrl-c             | Set the current color to the previous color option| | 
 
