@@ -6,6 +6,10 @@ This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It
 * One for the puzzle creation
 * One for the solving process
 
+In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
+
+## Plans
+
 Currently it supports only traditional Sudoku-s. But I plan to add further elements like support for:
 * Thermometers
 * Killer Cages
@@ -18,12 +22,17 @@ Currently it supports only traditional Sudoku-s. But I plan to add further eleme
 
 Further plans:
 * Highlighting naked singles
-* Highlighting double, triples, ...
+* Highlighting doubles, triples, ...
 * Highlighting when there is only one place for a digit in box/row/column
 * Checking if the sudoku is solvable from the current position
  * If there are more solution: how many.
+* Save/Load
 
-In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
+## Short-term TODO-s
+
+* Adding digits according to selection (yellow coloring), because currently only one digit can be added
+ * In puzzle
+ * In solution
 
 ## Controls
 
@@ -45,7 +54,7 @@ In its current form it is developed in Jupyter Notebook. To execute the applicat
 | Ctrl - Arrow keys    | Deleting cells from the selection (yellow coloring) | 
 | s                    | Toggle - Show/hide options (center pencilmarks) in each cell | 
 | Space                | Add/remove the active cell (cell with red frame) to/from the selection (yellow coloring) | 
-| Shift-a              | Add all cell to the selection (yellow coloring) | 
+| Shift-a              | Add all cells to the selection (yellow coloring) | 
 | Ctrl-a               | Remove all cells from the selection (yellow coloring) | 
 | q                    | Increasing Show-level by one |
 | w                    | Decreasing Show-level by one |
