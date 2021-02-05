@@ -66,5 +66,5 @@ In its current form it is developed in Jupyter Notebook. To execute the applicat
 | 1-9                | Adding a digit into the active cell to the solution | To reverse use Undo (u) |
 | Shift - 1-9        | Deleting the option in the active cell   | To reverse use Undo (u); Use only if the center pm is shown. |
 | Ctrl - 1-9         | Adding/deleting a digit as top pencilmark | |
-| c                  | Show or hide the options (i.e. center pencilmarks) in the selected cells(s) | | 
+| o                  | Show or hide the options (i.e. center pencilmarks) in the selected cells(s) | | 
 
