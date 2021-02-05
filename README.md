@@ -40,6 +40,8 @@ In it current form it is developed in Jupyter Notebook. To execute the applicati
 | Space                | Add/remove the active cell (cell with red frame) to/from the selection (yellow coloring) | 
 | Shift-a              | Add all cell to the selection (yellow coloring) | 
 | Ctrl-a               | Remove all cells from the selection (yellow coloring) | 
+| q                    | Increasing Show-level by one |
+| w                    | Decreasing Show-level by one |
 
 ### Puzzle Related Keys
 
