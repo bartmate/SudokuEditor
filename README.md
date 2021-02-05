@@ -9,14 +9,22 @@ This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It
 Currently it supports only traditional Sudoku-s. But I plan to add further elements like support for:
 * Thermometers
 * Killer Cages
-* Coloring
 * Summing arrows
 * Odd-even signs
 * Kropki dots
 * Min-max cells
+* Out-of-grid clues (like sandwich clues)
 * etc...
 
-In it current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
+Further plans:
+* Coloring
+* Highlighting naked singles
+* Highlighting double, triples, ...
+* Highlighting when there is only one place for a digit in box/row/column
+* Checking if the sudoku is solvable from the current position
+ * If there are more solution: how many.
+
+In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
 
 ## Controls
 
