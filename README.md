@@ -51,8 +51,8 @@ In it current form it is developed in Jupyter Notebook. To execute the applicati
 
 ### Solution Related Keys
 
-| Event         | Effect      | Remark |
-| ------------- |-------------|--------|
+| Event              | Effect      | Remark |
+|--------------------|-------------|--------|
 | 1-9           | Adding a digit into the active cell to the solution | To reverse use Undo (u) |
 | Shift - 1-9   | Deleting the option in the active cell   | To reverse use Undo (u); Use only if the center pm is shown. |
 | Control - 1-9 | Adding/deleting a digit as top pencilmark | |
