@@ -14,9 +14,7 @@ Currently it supports only traditional Sudoku-s. But I plan to add further eleme
 * Thermometers
 * Killer Cages
 * Summing arrows
-* Odd-even signs
 * Kropki dots
-* Min-max cells
 * Out-of-grid clues (like sandwich clues)
 * etc...
 
@@ -65,7 +63,8 @@ Further plans:
 | ------------- |-------------|--------| 
 | Alt - 1-9     | Adding a digit to the puzzle        | To reverse use Undo (Alt-u) |
 | Alt-u         | Undoing the last puzzle-related step | |
-| Ctrl-click    | Redoing the next puzzle-related step  | |
+| Alt-r         | Redoing the next puzzle-related step  | |
+| Alt-s         | Rotating among shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> None |
 
 ### Solution Related Keys
 
