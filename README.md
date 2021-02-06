@@ -30,9 +30,9 @@ Further plans:
 
 ## Short-term TODO-s
 
-* Adding digits according to selection (yellow coloring), because currently only one digit can be added
- * In puzzle
- * In solution
+* Adding one-cell shapes (like odd/even sign, bulb of a thermo, min/max cell)
+* Adding two-cell shapes (like kropki dots / relational signs)
+* Adding lines (for thermo or arrow)
 
 ## Controls
 
