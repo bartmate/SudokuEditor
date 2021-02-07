@@ -18,6 +18,7 @@ Beside traditional Sudoku, the editor supports the features below. All of them a
 | Empty square           |  | 
 | Cell with 4 arrows outwards | Typically used for indicating that the cell value is higher than its neighbors. | 
 | Cell with 4 arrows inwards | Typically used for indicating that the cell value is lower than its neighbors. | 
+| Thin circle | Typically used for summation arrows to hold the 1-digit sum. | 
 
 | 2-cell Feature       | Remark      |
 | -------------------  |-------------| 
@@ -29,6 +30,7 @@ Beside traditional Sudoku, the editor supports the features below. All of them a
 | "V" | Typically used for indicating that the sum of the two neighboring cells is 5. | 
 | "<" | Indicating relation between cells. | 
 | ">" | Indicating relation between cells. | 
+| Thin circle | Typically used for summation arrows to hold the 2-digit sum. | 
 
 | 2-cell Line Segment       | Remark      |
 | -------------------  |-------------| 
@@ -37,14 +39,12 @@ Beside traditional Sudoku, the editor supports the features below. All of them a
 | Thin Line with Arrow at the Beginning |  Can be used for summation arrow. | 
 | Thin Line with Arrow at the End       |  Can be used for summation arrow. | 
 
-
-
 ## Plans
 
 I plan to add further elements like support for:
 * Killer Cages
 * Out-of-grid clues (like sandwich clues)
-* etc...
+* Out-of-grid diagonal arrows + diagonal sums
 
 Further plans for solution-related functionalities:
 * Highlighting naked singles
@@ -57,8 +57,7 @@ Further plans for solution-related functionalities:
 
 ## Short-term TODO-s
 
-* Adding 1-digit circles for summing arrow
-* Adding 2 (or more)-digit circles for summing arrow
+* Highlighting naked singles
 
 ## Controls
 
@@ -92,8 +91,8 @@ Further plans for solution-related functionalities:
 | Alt - 1-9     | Adding a digit to the puzzle        | To reverse use Undo (Alt-u) |
 | Alt-u         | Undoing the last puzzle-related step | |
 | Alt-r         | Redoing the next puzzle-related step  | |
-| Alt-s         | Rotating among Shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> None |
-| Alt-s         | Rotating among Shapes | 2-cell shapes (2 cells need to be selected): None -> Filled Kropki Dot -> Empty Kropki Dot -> Filled Kropki Square -> Empty Kropki Square -> "X" -> "V" -> "<" -> ">" -> None |
+| Alt-s         | Rotating among Shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> 1-digit circle -> None |
+| Alt-s         | Rotating among Shapes | 2-cell shapes (2 cells need to be selected): None -> Filled Kropki Dot -> Empty Kropki Dot -> Filled Kropki Square -> Empty Kropki Square -> "X" -> "V" -> "<" -> ">" -> 2-digit circle ->None |
 | Alt-l         | Rotating among Line Segments | (2 cells need to be selected): None -> Thermo -> Thin Segment -> Thin Segment with Arrow (beginning) -> Thin Segment with Arrow (end) -> None |
 
 ### Solution Related Keys
