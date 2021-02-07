@@ -30,13 +30,19 @@ Beside traditional Sudoku, the editor supports the features below. All of them a
 | "<" | Indicating relation between cells. | 
 | ">" | Indicating relation between cells. | 
 
+| 2-cell Line Segment       | Remark      |
+| -------------------  |-------------| 
+| Thermo               | Can be used for thermometers. | 
+| Thin Line            | Can be used for summation arrow. | 
+| Thin Line with Arrow at the Beginning |  Can be used for summation arrow. | 
+| Thin Line with Arrow at the End       |  Can be used for summation arrow. | 
+
+
 
 ## Plans
 
 I plan to add further elements like support for:
-* Thermometers
 * Killer Cages
-* Summing arrows
 * Out-of-grid clues (like sandwich clues)
 * etc...
 
@@ -51,8 +57,8 @@ Further plans for solution-related functionalities:
 
 ## Short-term TODO-s
 
-* Adding two-cell shapes (like kropki dots / relational signs)
-* Adding lines for thermo-s
+* Adding 1-digit circles for summing arrow
+* Adding 2 (or more)-digit circles for summing arrow
 
 ## Controls
 
@@ -86,8 +92,9 @@ Further plans for solution-related functionalities:
 | Alt - 1-9     | Adding a digit to the puzzle        | To reverse use Undo (Alt-u) |
 | Alt-u         | Undoing the last puzzle-related step | |
 | Alt-r         | Redoing the next puzzle-related step  | |
-| Alt-s         | Rotating among shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> None |
-| Alt-s         | Rotating among shapes | 2-cell shapes (2 cells need to be selected): None -> Filled Kropki Dot -> Empty Kropki Dot -> Filled Kropki Square -> Empty Kropki Square -> "X" -> "V" -> "<" -> ">" -> None |
+| Alt-s         | Rotating among Shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> None |
+| Alt-s         | Rotating among Shapes | 2-cell shapes (2 cells need to be selected): None -> Filled Kropki Dot -> Empty Kropki Dot -> Filled Kropki Square -> Empty Kropki Square -> "X" -> "V" -> "<" -> ">" -> None |
+| Alt-l         | Rotating among Line Segments | (2 cells need to be selected): None -> Thermo -> Thin Segment -> Thin Segment with Arrow (beginning) -> Thin Segment with Arrow (end) -> None |
 
 ### Solution Related Keys
 
