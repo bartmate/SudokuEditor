@@ -8,9 +8,20 @@ This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It
 
 In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
 
+Beside traditional Sudoku, the editor supports the features below. All of them are UI features, meaning that there is no check or automatism during the solution.
+
+| Feature                | Remark      |
+| -------------------  |-------------| 
+| Filled circle           | Typically used for odd-cells. | 
+| Empty circle           |  | 
+| Filled square           | Typically used for even-cells.  | 
+| Empty square           |  | 
+| Cell with 4 arrows outwards | Typically used for indicating that the cell value is higher than its neighbors. | 
+| Cell with 4 arrows inwards | Typically used for indicating that the cell value is lower than its neighbors. | 
+
 ## Plans
 
-Currently it supports only traditional Sudoku-s. But I plan to add further elements like support for:
+I plan to add further elements like support for:
 * Thermometers
 * Killer Cages
 * Summing arrows
@@ -18,19 +29,19 @@ Currently it supports only traditional Sudoku-s. But I plan to add further eleme
 * Out-of-grid clues (like sandwich clues)
 * etc...
 
-Further plans:
+Further plans for solution-related functionalities:
 * Highlighting naked singles
 * Highlighting doubles, triples, ...
 * Highlighting when there is only one place for a digit in box/row/column
+* Highlighting when digits in a row/column in a box can cause that digit can be deleted in the other boxes in the same row/column.
 * Checking if the sudoku is solvable from the current position
- * If there are more solution: how many.
-* Save/Load
+ * If there are more solutions: how many.
+* Save/Load (including the two undo/redo lists)
 
 ## Short-term TODO-s
 
-* Adding one-cell shapes (like odd/even sign, bulb of a thermo, min/max cell)
 * Adding two-cell shapes (like kropki dots / relational signs)
-* Adding lines (for thermo or arrow)
+* Adding lines for thermo-s
 
 ## Controls
 
