@@ -10,7 +10,7 @@ In its current form it is developed in Jupyter Notebook. To execute the applicat
 
 Beside traditional Sudoku, the editor supports the features below. All of them are UI features, meaning that there is no check or automatism during the solution.
 
-| Feature                | Remark      |
+| 1-cell Feature       | Remark      |
 | -------------------  |-------------| 
 | Filled circle           | Typically used for odd-cells. | 
 | Empty circle           |  | 
@@ -19,13 +19,24 @@ Beside traditional Sudoku, the editor supports the features below. All of them a
 | Cell with 4 arrows outwards | Typically used for indicating that the cell value is higher than its neighbors. | 
 | Cell with 4 arrows inwards | Typically used for indicating that the cell value is lower than its neighbors. | 
 
+| 2-cell Feature       | Remark      |
+| -------------------  |-------------| 
+| Filled Kropki Dot           | Typically used for indicating 1:2 ratio. | 
+| Empty Kropki Dot           |  Typically used for indicating consequtive digits. | 
+| Filled Kropki Square            |  | 
+| Empty Kropki Square           |  | 
+| "X" | Typically used for indicating that the sum of the two neighboring cells is 10. | 
+| "V" | Typically used for indicating that the sum of the two neighboring cells is 5. | 
+| "<" | Indicating relation between cells. | 
+| ">" | Indicating relation between cells. | 
+
+
 ## Plans
 
 I plan to add further elements like support for:
 * Thermometers
 * Killer Cages
 * Summing arrows
-* Kropki dots
 * Out-of-grid clues (like sandwich clues)
 * etc...
 
@@ -76,6 +87,7 @@ Further plans for solution-related functionalities:
 | Alt-u         | Undoing the last puzzle-related step | |
 | Alt-r         | Redoing the next puzzle-related step  | |
 | Alt-s         | Rotating among shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> None |
+| Alt-s         | Rotating among shapes | 2-cell shapes (2 cells need to be selected): None -> Filled Kropki Dot -> Empty Kropki Dot -> Filled Kropki Square -> Empty Kropki Square -> "X" -> "V" -> "<" -> ">" -> None |
 
 ### Solution Related Keys
 
