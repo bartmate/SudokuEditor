@@ -45,6 +45,7 @@ I plan to add further elements like support for:
 * Killer Cages
 * Out-of-grid clues (like sandwich clues)
 * Out-of-grid diagonal arrows + diagonal sums
+* Coloring (as part of puzzle, not as part of solution which is supported already)
 
 Further plans for solution-related functionalities:
 * Highlighting naked singles
