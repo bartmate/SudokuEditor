@@ -5,6 +5,10 @@
 This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It has two independent undo-redo list in it:
 * One for the puzzle creation
 * One for the solving process
+The options are automatically handled as one puts numbers into the grid. Depending on the show-level set, not all of them are shown, though it can be set for each cell separately that the options are shown in them. Also, the system automatically show certain combinations:
+* Naked Single
+* \[Under development\] Lonely digit (when there is only one place in a row/column/box to put a digit)
+* \[Under development\] Pairs, triples, quadruples, quintupples.
 
 In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
 
@@ -48,9 +52,7 @@ I plan to add further elements like support for:
 * Coloring (as part of puzzle, not as part of solution which is supported already)
 
 Further plans for solution-related functionalities:
-* Highlighting naked singles
-* Highlighting doubles, triples, ...
-* Highlighting when there is only one place for a digit in box/row/column
+* Highlighting lonely digit (when there is only one place for a digit in box/row/column)
 * Highlighting when digits in a row/column in a box can cause that digit can be deleted in the other boxes in the same row/column.
 * Checking if the sudoku is solvable from the current position
  * If there are more solutions: how many.
@@ -58,7 +60,8 @@ Further plans for solution-related functionalities:
 
 ## Short-term TODO-s
 
-* Highlighting naked singles
+* Highlighting lonely digits
+* Highlighting doubles, triples, ...
 
 ## Controls
 
