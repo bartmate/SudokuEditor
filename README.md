@@ -7,8 +7,8 @@ This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It
 * One for the solving process
 The options are automatically handled as one puts numbers into the grid. Depending on the show-level set, not all of them are shown, though it can be set for each cell separately that the options are shown in them. Also, the system automatically show certain combinations:
 * Naked Single
-* \[Under development\] Lonely digit (when there is only one place in a row/column/box to put a digit)
-* \[Under development\] Pairs, triples, quadruples, quintupples.
+* (Under development) Lonely digit (when there is only one place in a row/column/box to put a digit)
+* (Under development) Pairs, triples, quadruples, quintupples.
 
 In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
 
