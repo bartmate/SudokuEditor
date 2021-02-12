@@ -5,6 +5,7 @@
 This little Python based Sudoku Editor is mainly for creating Sudoku puzzles. It has two independent undo-redo list in it:
 * One for the puzzle creation
 * One for the solving process
+
 The options are automatically handled as one puts numbers into the grid. Depending on the show-level set, not all of them are shown, though it can be set for each cell separately that the options are shown in them. Also, the system automatically show certain combinations:
 * Naked Single
 * Only-one digit in row, column or box
