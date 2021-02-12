@@ -45,11 +45,14 @@ Beside traditional Sudoku, the editor supports the features below. All of them a
 
 ## Plans
 
-I plan to add further elements like support for:
+I plan to add further elements for the puzzles, like support for:
 * Killer Cages
 * Out-of-grid clues (like sandwich clues)
 * Out-of-grid diagonal arrows + diagonal sums
+* Circle between two cells showing digits
+* Circle among four cells showing digits
 * Coloring (as part of puzzle, not as part of solution which is supported already)
+* Coloring of 1-cell, 2-cell features
 
 Further plans for solution-related functionalities:
 * Thermo support
