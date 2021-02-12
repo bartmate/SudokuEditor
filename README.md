@@ -54,6 +54,9 @@ I plan to add further elements for the puzzles, like support for:
 * Circle among four cells showing digits
 * Coloring (as part of puzzle, not as part of solution which is supported already)
 * Coloring of 1-cell, 2-cell features
+* Supporting Knight constraint
+* Supporting King constraint
+* One or two main diagonal line(s)
 
 Further plans for solution-related functionalities:
 * Thermo support
