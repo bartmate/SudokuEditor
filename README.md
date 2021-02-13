@@ -62,8 +62,6 @@ Further plans for solution-related functionalities:
 * Thermo support
  * Building internal representation for thermos based on the bulbs and line segments
  * Automatically adjust options on the thermo after adding digits or deleting options
-* Checking if the sudoku is solvable from the current position
- * If there are more solutions: how many.
 * Save/Load (including the two undo/redo lists)
 
 ## Short-term TODO-s
@@ -117,4 +115,6 @@ Further plans for solution-related functionalities:
 | c                  | Color the selected cell(s) using the current color | Current color is shown in the top left corner | 
 | Shift-c            | Set the current color to the next color option | | 
 | Ctrl-c             | Set the current color to the previous color option| | 
+| f                  | Counting the number of solutions from the current grid | Search up to the maximal number (8) or up to the maximal number of examined nodes (100). | 
+| Shift-f            | Searching for the first solution from the current grid | Search up to the maximal number (8) or up to the maximal number of examined nodes (100). | 
 
