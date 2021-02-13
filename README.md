@@ -54,11 +54,12 @@ I plan to add further elements for the puzzles, like support for:
 * Circle among four cells showing digits
 * Coloring (as part of puzzle, not as part of solution which is supported already)
 * Coloring of 1-cell, 2-cell features
-* Supporting Knight constraint
-* Supporting King constraint
 * One or two main diagonal line(s)
+* Adding bottom left pencilmark (one digit) useful for puzzle creation to note a digit which is known because of the puzzle, but not known according to the current solution state
 
 Further plans for solution-related functionalities:
+* Supporting Knight constraint
+* Supporting King constraint
 * Thermo support
  * Building internal representation for thermos based on the bulbs and line segments
  * Automatically adjust options on the thermo after adding digits or deleting options
