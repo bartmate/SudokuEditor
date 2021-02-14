@@ -11,6 +11,8 @@ The options are automatically handled as one puts numbers into the grid. Dependi
 * Only-one digit in row, column or box
 * Pairs, triples, quadruples, quintupples.
 
+In case of valid thermometers the options are handled automatically, too. Pre-requisit: After drawing the thermo, it must be prepared with <Alt-t>. Preparation means that the program finds the thermometers (in case of invalid ones, some subset of the thermometer lines and bulbs) and translates them onto "less-than" relations between cells. These "less-than" relations are enforced automatically.
+
 In its current form it is developed in Jupyter Notebook. To execute the application, you have to execute the cells one-by-one.
 
 Beside traditional Sudoku, the editor supports the features below. All of them are UI features, meaning that there is no check or automatism during the solution.
@@ -55,18 +57,15 @@ I plan to add further elements for the puzzles, like support for:
 * Coloring (as part of puzzle, not as part of solution which is supported already)
 * Coloring of 1-cell, 2-cell features
 * One or two main diagonal line(s)
-* Adding bottom left pencilmark (one digit) useful for puzzle creation to note a digit which is known because of the puzzle, but not known according to the current solution state
 
 Further plans for solution-related functionalities:
 * Supporting Knight constraint
 * Supporting King constraint
-* Thermo support
- * Building internal representation for thermos based on the bulbs and line segments
- * Automatically adjust options on the thermo after adding digits or deleting options
 * Save/Load (including the two undo/redo lists)
 
 ## Short-term TODO-s
 
+* Adding bottom left pencilmark (one digit) useful for puzzle creation to note a digit which is known because of the puzzle, but not known according to the current solution state
 * Coloring (as part of puzzle, not as part of solution which is supported already)
 
 ## Controls
@@ -104,6 +103,7 @@ Further plans for solution-related functionalities:
 | Alt-s         | Rotating among Shapes | 1-cell shapes (no selection needed): None -> Filled circle -> Empty circle -> Filled square -> Empty square -> Min cell -> Max cell -> 1-digit circle -> None |
 | Alt-s         | Rotating among Shapes | 2-cell shapes (2 cells need to be selected): None -> Filled Kropki Dot -> Empty Kropki Dot -> Filled Kropki Square -> Empty Kropki Square -> "X" -> "V" -> "<" -> ">" -> 2-digit circle ->None |
 | Alt-l         | Rotating among Line Segments | (2 cells need to be selected): None -> Thermo -> Thin Segment -> Thin Segment with Arrow (beginning) -> Thin Segment with Arrow (end) -> None |
+| Alt-t         | Preparing thermometers | A thermometer consists of one bulb and some continuous thermometer line segments. The thermometers can branch. |
 
 ### Solution Related Keys
 
