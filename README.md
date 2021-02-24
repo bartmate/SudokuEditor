@@ -61,6 +61,7 @@ I plan to add further elements for the puzzles, like support for:
 Further plans for solution-related functionalities:
 * Supporting Knight constraint
 * Supporting King constraint
+* Supporting "Same-position-in-box" constraint
 * Save/Load (including the two undo/redo lists)
 
 ## Short-term TODO-s
